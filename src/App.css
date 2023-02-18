@@ -1,7 +1,126 @@
+.weatherPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  background-image: linear-gradient(
+      rgba(56, 56, 56, 0.45),
+      rgba(31, 31, 31, 0.45)
+    ),
+    url("./image/city-weather.jpg");
+  background-position: top center;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 0;
+}
 .weatherApp {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  background-color: #1a1a1ac7;
+  min-width: 650px;
+  min-height: 80vh;
+  color: white;
+  border-radius: 50px;
+}
+
+.cityForm {
+  display: flex;
+  gap: 5%;
+}
+
+.cityText {
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+.tempText {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0 0 3vh 0;
+}
+
+.componentWeather {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 70px;
+  margin-top: 3vh;
+}
+.sunStatus {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 70px;
+  padding-top: 30px;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.element p {
+  margin: 0 0 10px 0;
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.element h4 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.sunStatus {
+  margin-top: 3vh;
+}
+
+input[type="text"] {
+  color: rgb(42, 35, 35);
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 10px;
+  min-width: 150px;
+  min-height: 30px;
+  border-radius: 4px;
+  padding: 8px 0px;
+  border: 2px solid transparent;
+  box-shadow: rgb(0 0 0 / 12%) 0px 1px 3px, rgb(0 0 0 / 24%) 0px 1px 2px;
+  background: rgb(251, 251, 251);
+}
+
+button {
+  /* background-image: linear-gradient(60deg, #29323c 0%, #485563 100%); */
+  background-image: linear-gradient(to top, #f77f00 0%, #fcbf49 100%);
+  border: 0;
+  border-radius: 12px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  min-width: 130px;
+  line-height: 2.5;
+  outline: transparent;
+  padding: 0 1rem;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
+
+button:hover {
+  box-shadow: 0 0 0.25rem #f77f00, -0.125rem -0.125rem 1rem #fcbf49;
 }
