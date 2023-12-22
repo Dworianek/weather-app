@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Weather-App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Opis
 
-## Available Scripts
+Repozytorium Weather-App zawiera prostą aplikację pogodową, która umożliwia użytkownikowi sprawdzenie aktualnej prognozy pogody dla wybranego miasta. Aplikacja została napisana w React z wykorzystaniem Bootstrap i korzysta z zewnętrznego API pogodowego, aby dostarczyć dokładne informacje o temperaturze, ciśnieniu, wilgotności, prędkości wiatru, godzinie wschodu i zachodu słońca.
 
-In the project directory, you can run:
+![image](https://github.com/Dworianek/weather-app/assets/45004601/67027b70-a807-41dc-b106-179877721f99)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funkcje
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Wyszukiwanie Pogody:** Użytkownik może wpisać nazwę miasta, a aplikacja wyświetli aktualną prognozę pogody dla tego rejonu.
 
-### `npm test`
+2. **Informacje Pogodowe:** Aplikacja prezentuje informacje na temat temperatury, ciśnienia, wilgotności, prędkości wiatru, godziny wschodu i zachodu słońca.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. **Stylizacja za pomocą Bootstrap:** Interfejs graficzny aplikacji został zaprojektowany z wykorzystaniem frameworka Bootstrap, aby zapewnić atrakcyjny wygląd i responsywność.
 
-### `npm run build`
+4. **Zewnętrzne API Pogodowe:** Aplikacja korzysta z zewnętrznego API pogodowego do uzyskania dokładnych i bieżących danych o prognozie.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologie
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Aplikacja została stworzona przy użyciu następujących technologii:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Framework JavaScript:** React
+- **Biblioteka do Stylingu:** Bootstrap
+- **API Pogodowe:** OpenWeather
 
-### `npm run eject`
+## Instrukcje Użytkowania
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Sklonuj repozytorium na swój lokalny komputer.
+2. Otwórz terminal w katalogu projektu i wykonaj polecenie `npm install` w celu zainstalowania zależności.
+3. Zarejestruj się na stronie [Nazwa API Pogodowego] i uzyskaj klucz API.
+4. W pliku `utils/api.js` wstaw swój klucz API.
+5. Uruchom aplikację za pomocą polecenia `npm start`.
+6. Wprowadź nazwę miasta, aby sprawdzić aktualną prognozę pogody.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Autor
+Adrian Dworak
