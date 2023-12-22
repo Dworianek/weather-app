@@ -1,5 +1,8 @@
 # Weather-App
 
+## Link do projektu
+https://dworianek.github.io/weather-app/
+
 ## Opis
 
 Repozytorium Weather-App zawiera prostą aplikację pogodową, która umożliwia użytkownikowi sprawdzenie aktualnej prognozy pogody dla wybranego miasta. Aplikacja została napisana w React z wykorzystaniem Bootstrap i korzysta z zewnętrznego API pogodowego, aby dostarczyć dokładne informacje o temperaturze, ciśnieniu, wilgotności, prędkości wiatru, godzinie wschodu i zachodu słońca.
