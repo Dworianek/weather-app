@@ -29,8 +29,8 @@ Aplikacja została stworzona przy użyciu następujących technologii:
 
 1. Sklonuj repozytorium na swój lokalny komputer.
 2. Otwórz terminal w katalogu projektu i wykonaj polecenie `npm install` w celu zainstalowania zależności.
-3. Zarejestruj się na stronie [Nazwa API Pogodowego] i uzyskaj klucz API.
-4. W pliku `utils/api.js` wstaw swój klucz API.
+3. Zarejestruj się na stronie OpenWeather i uzyskaj klucz API.
+4. W pliku `App.js` wstaw swój klucz API.
 5. Uruchom aplikację za pomocą polecenia `npm start`.
 6. Wprowadź nazwę miasta, aby sprawdzić aktualną prognozę pogody.
 
